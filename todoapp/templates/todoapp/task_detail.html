@@ -1,0 +1,46 @@
+{% extends 'todoapp/base.html' %} {% block content %}
+
+<div class = "header">
+    <h1>タスク詳細</h1>
+</div>
+
+<div class = "formWrap">
+  <div class="row border p-2 mb-2">
+    <div class="col-sm-3">
+      <p class = "itemName">タスク名：</p>
+    </div>
+    <div class="col-sm-9">
+      <p class = "detail">{{task.title}}</p>
+    </div>
+  </div>
+  <div class="row border p-2 mb-2">
+    <div class="col-sm-3">
+      <p class = "itemName">詳細：</p>
+    </div>
+    <div class="col-sm-9">
+      <p class = "detail">{{task.description}}</p>
+    </div>
+  </div>
+  <div class="row border p-2 mb-2">
+    <div class="col-sm-3">
+      <p class = "itemName">ステータス：</p>
+    </div>
+    <div class="col-sm-9">
+      <p class = "detail">{{task.get_status_display}}</p>
+    </div>
+  </div>
+  <div class="row border p-2 mb-2">
+    <div class="col-sm-3">
+      <p class = "itemName">期日：</p>
+    </div>
+    <div class="col-sm-9">
+      <p class = "detail">{{task.duedate}}</p>
+    </div>
+  </div>
+</div>
+
+<hr />
+<div class = "accountWrapper">
+    <a href="{%  url 'tasks' %}" class = "blackGrey">戻る</a>
+</div>
+{% endblock content %}

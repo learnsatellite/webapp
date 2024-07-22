@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(218, 237, 249);
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding-top: 55px;
+}
+
+.todoAppWrapper {
+    max-width: 530px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 12px 18px -7px #777777;
+    border-radius:10px;
+}
+
+.blackGrey {
+    color: #595959; 
+    text-decoration: none;
+ }
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(37,75,168);
+    background: linear-gradient(126deg, rgba(37,75,168,0.94) 32%, rgba(60,97,147,1) 87%);
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.header a {
+    color:white;
+    text-decoration: none;
+}
+
+.taskWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid rgba(70, 70, 70, 0.416);
+}
+
+.taskTitle {
+    display: flex;
+    align-items: center;
+}
+
+.taskCompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.taskIncompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: #595959;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.loginAndLogout {
+    padding: 20px;
+}
+
+.loginAndLogout a {
+    color:lightcoral;
+    text-decoration: none;
+}
+
+.editButton {
+    color:rgb(58, 135, 58);
+    text-decoration: none;
+}
+
+.deleteButton {
+    color:red;
+    text-decoration: none;
+}
+
+/* タスク検索と追加のフォーム */
+.searchWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.searchInput {
+    height: 24px;
+    outline: none;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 160px !important;
+}
+
+.searchButton {
+    border: 1px solid lightseagreen;
+    padding: 4px 10px;
+    background-color: #fafafa;
+    color: lightseagreen;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.searchButtonRegister {
+    border: 1px solid lightseagreen;
+    padding: 4px 10px;
+    background-color: #fafafa;
+    color: lightseagreen;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.4s;
+    margin-top: 40px;
+}
+
+.searchButton:hover {
+    background-color: lightseagreen;
+    color:white;
+}
+
+.searchButtonRegister:hover {
+    background-color: lightseagreen;
+    color:white;
+}
+
+.addButton {
+    font-size: 32px;
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+label {
+    display: block;
+}
+
+input[type = "text"],
+textarea {
+    width: 100%;
+}
+
+.accountWrapper {
+    padding: 10px 20px 20px 20px;
+}
+
+.accountWrapper p {
+    margin: 0;
+    padding: 0;
+}
+
+.formWrap {
+    padding:20px;
+}
+
+.required {
+    color: red;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.cautionLast {
+    font-size: 12px;
+    color: rgb(130, 130, 130);
+    margin: 5px 0px 25px 0px;
+}
+
+.caution {
+    font-size: 12px;
+    color: rgb(130, 130, 130);
+    margin: 5px 0px 5px 0px;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.noTask {
+    padding-left:20px;
+}

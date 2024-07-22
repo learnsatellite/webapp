@@ -1,0 +1,72 @@
+{% extends 'todoapp/base.html' %} {% block content %}
+
+<div class = "header">
+    <h1>{{request.user}}のタスク</h1>
+</div>
+
+<div class = "searchWrapper">
+    <form method = "GET">
+        <input type = "text" name = "search" value = "{{search}}" class = "searchInput" />
+        <input type = "submit" value = "検索" class = "searchButton" />
+        <select name="status" id="status">
+            {% for value, label in form.fields.status.choices %}
+                <option value="{{ value }}" {% if value == request.GET.status %}selected{% endif %}>{{ label }}</option>
+            {% endfor %}
+        </select>
+    </form>
+    <a href="{%  url 'create-task' %}" class = "addButton">+</a>
+</div>
+
+<div class = "tasksWrapper">
+    {% for task in tasks %}
+    <div class = "taskWrapper"> 
+       {% if task.get_status_display == "完了" %}
+       <!-- タスクが完了しているなら -->
+       <div class = "taskTitle">
+            <div class = "taskCompletedIcon"></div>
+            <s><a href = "{% url 'task' task.id %}" class = "blackGrey">{{task}}</a></s>
+       </div> 
+       <div>
+        <button type="button" class="btn btn-primary" disabled>{{task.get_status_display}}</button>
+            <a href = "{% url 'edit-task' task.id %}" class = "editButton">&#x270f;</a>
+            <a href = "{% url 'delete-task' task.id %}" class = "deleteButton">×</a>
+       </div>
+       {% elif  task.get_status_display == "作業中" %}
+       <!-- タスクが作業中なら -->
+       <div class = "taskTitle">
+            <div class = "taskIncompletedIcon"></div>
+            <a href = "{% url 'task' task.id %}" class = "blackGrey">{{task}}</a>
+       </div> 
+       <div>
+            <button type="button" class="btn btn-secondary">{{task.get_status_display}}</button>
+            <a href = "{% url 'edit-task' task.id %}" class = "editButton">&#x270f;</a>
+            <a href = "{% url 'delete-task' task.id %}" class = "deleteButton">×</a>
+       </div>
+       {% else %}
+       <!-- タスクが未完了なら -->
+       <div class = "taskTitle">
+            <div class = "taskIncompletedIcon"></div>
+            <a href = "{% url 'task' task.id %}" class = "blackGrey">{{task}}</a>
+       </div> 
+       <div>
+            <button type="button" class="btn btn-danger">{{task.get_status_display}}</button>
+            <a href = "{% url 'edit-task' task.id %}" class = "editButton">&#x270f;</a>
+            <a href = "{% url 'delete-task' task.id %}" class = "deleteButton">×</a>
+       </div>
+       {% endif %}
+    </div>
+
+    {% empty %}
+    <h3 class = "noTask">タスクがありません</h3>
+    {% endfor %}
+</div>
+
+<div class = "loginAndLogout">
+    {% if request.user.is_authenticated %}
+    <!-- <p>{{request.user}}</p> -->
+    <a href = "{% url 'logout' %}">ログアウト</a>
+    {% else %}
+    <a href = "{% url 'login' %}">ログイン</a>
+    {% endif %}
+</div>
+{% endblock content %}

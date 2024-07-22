@@ -1,0 +1,33 @@
+{% extends 'todoapp/base.html' %} {% block content %}
+
+
+<div class = "header">
+    <h1>タスク登録</h1>
+</div>
+
+<form action = "" method = "post" class = "formWrap">
+    {% csrf_token %} 
+    <!-- {{form.as_p}} -->
+    <div class="d-flex flex-row">
+        <label for = "id_title">タスク名</label>
+        <div class = "required">※必須</div>
+    </div>
+    <div class = "mt-1 mb-4">{{form.title}}</div>
+    <label for = "id_title">詳細</label>
+    <div class = "mt-1 mb-4">{{form.description}}</div>
+    <div class="d-flex flex-row">
+        <label for = "id_status">ステータス</label>
+        <div class = "required">※必須</div>
+    </div>
+    <div class = "mt-1 mb-4">{{form.status}}</div>
+    <label for = "id_duedate">期日</label>
+    <div class = "mt-1 mb-2">{{form.duedate}}</div>
+    <br>
+    <input type = "submit" value = "追加" class = "searchButton" />
+</form>
+
+<hr />
+<div class = "accountWrapper">
+    <a href="{%  url 'tasks' %}" class = "blackGrey">戻る</a>
+</div>
+{% endblock content %}

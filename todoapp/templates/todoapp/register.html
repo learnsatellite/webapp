@@ -1,0 +1,52 @@
+{% extends 'todoapp/base.html' %} {% block content %}
+<div class = "header">
+    <h1>新規登録</h1>
+</div>
+
+<form class = "formWrap" action = "" method = "POST">
+    {% csrf_token %}
+    <div class="d-flex flex-row">
+        <label for = "id_username">ユーザー名</label>
+        <div class = "required">※必須</div>
+    </div>
+    {{form.username}}
+    <div class = "caution">※半角英数、20文字以下</div>
+    {% if form.username.errors %}
+        {% for error in form.username.errors %}
+            <div class = "errorMessage">{{ error }}</div>
+        {% endfor %}
+    {% endif %}
+    <div class = "d-flex flex-row mt-25px">
+        <label for = "id_password1">パスワード</label>
+        <div class = "required">※必須</div>
+    </div>
+    {{form.password1}}
+    <div class = "caution">※同ユーザーのユーザー名と似たパスワードは不可</div>
+    <div class = "caution">※8文字以上、数字のみは不可</div>
+    <div class = "cautionLast">※他のユーザーもよく使用しているパスワードは不可<br>　（入力した場合、「このパスワードは一般的すぎます。」というエラーメッセージが表示）</div>
+    {% if form.password.errors %}
+        {% for error in form.password.errors %}
+            <div class = "errorMessage">{{ error }}</div>
+        {% endfor %}
+    {% endif %}
+    <div class="d-flex flex-row">
+        <label for = "id_password2">確認用のパスワード</label>
+        <div class = "required">※必須</div>
+    </div>
+    {{form.password2}}
+    {% if form.password2.errors %}
+        {% for error in form.password2.errors %}
+            <div class = "errorMessage">{{ error }}</div>
+        {% endfor %}
+    {% endif %}
+    <br />
+    <input type= "submit" value = "新規登録" class = "searchButtonRegister" />
+
+</form>
+
+<hr />
+<div class= "accountWrapper">
+    <p>既にアカウントを持っていますか？</p>
+    <a href = "{% url 'login' %}" class = "blackGrey">ログイン</a>
+</div>
+{% endblock content %}

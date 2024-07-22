@@ -1,0 +1,15 @@
+{% extends 'todoapp/base.html' %} {% block content %}
+
+<div class = "header">
+    <h1>{{task}}</h1>
+</div>
+
+<form action = "" method = "post" class = "formWrap">
+    {% csrf_token %} {{form.as_p}}
+</form>
+
+<hr />
+<div class = "accountWrapper">
+    <a href="{%  url 'tasks' %}" class = "blackGrey">戻る</a>
+</div>
+{% endblock content %}
