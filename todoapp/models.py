@@ -76,6 +76,10 @@ class User(AbstractBaseUser,PermissionsMixin):
     # 管理者などで区別がつきやすいようにusernameで表示
     def __str__(self):
         return self.username
+    
+
+    class Meta:
+        verbose_name_plural = "ユーザー"
 
 
 # Create your models here.
@@ -100,3 +104,4 @@ class Task(models.Model):
     
     class Meta:
         ordering = ["completed"]
+        verbose_name_plural = "タスク"
