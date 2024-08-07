@@ -69,7 +69,13 @@
                     {% endif %}
                 </td>
                 <td>{{task.createdDate|date:"Y年n月j日"}}</td>
-                <td>{{task.duedate}}</td>
+                <td>
+                    {% if task.duedate %}
+                        {{task.duedate}}
+                    {% else %}
+                        （指定なし）
+                    {% endif %}
+                </td>
                 <td>
                     <div class = "d-flex flex-row">
                         <form method = "get" action = "{% url 'edit-task' task.id %}">
