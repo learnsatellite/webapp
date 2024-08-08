@@ -59,10 +59,10 @@ class User(AbstractBaseUser,PermissionsMixin):
     username = models.CharField(max_length=20, unique=True, validators = [username_validator], blank = False, verbose_name = "ユーザー名") 
     email = models.EmailField(unique = True, blank=True, null = True)
     # ログインしているかどうか
-    is_active = models.BooleanField(default = True)
+    is_active = models.BooleanField(default = True, verbose_name = "アカウントの有効化")
     # 管理サイトにアクセスできるかどうか
     # デフォルトは権限無し
-    is_staff = models.BooleanField(default = False)
+    is_staff = models.BooleanField(default = False, verbose_name = "管理者権限")
     
     # ユーザー作成やスーパーユーザー作成などのカスタムロジックを実装
     objects = UserManager()
@@ -80,6 +80,7 @@ class User(AbstractBaseUser,PermissionsMixin):
 
     class Meta:
         verbose_name_plural = "ユーザー"
+        verbose_name = "ユーザー"
 
 
 # Create your models here.
@@ -105,3 +106,4 @@ class Task(models.Model):
     class Meta:
         ordering = ["completed"]
         verbose_name_plural = "タスク"
+        verbose_name = "タスク"
