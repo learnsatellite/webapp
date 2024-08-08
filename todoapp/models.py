@@ -62,7 +62,7 @@ class User(AbstractBaseUser,PermissionsMixin):
     is_active = models.BooleanField(default = True, verbose_name = "アカウントの有効化")
     # 管理サイトにアクセスできるかどうか
     # デフォルトは権限無し
-    is_staff = models.BooleanField(default = False, verbose_name = "管理者権限")
+    is_staff = models.BooleanField(default = False, verbose_name = "管理サイトへのアクセス権限")
     
     # ユーザー作成やスーパーユーザー作成などのカスタムロジックを実装
     objects = UserManager()
