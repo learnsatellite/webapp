@@ -90,13 +90,12 @@ class Task(models.Model):
         ("option2", "作業中"),
         ("option3", "完了")
     ]
-    user = models.ForeignKey(User, on_delete = models.CASCADE, null = True, blank = True)
-    title = models.CharField(max_length = 100)
-    description = models.TextField(null = True, blank = True)
-    completed = models.BooleanField(default = False)
-    status = models.CharField(choices = CHOICES, max_length = 15, null = True, blank = True)
-    createdDate = models.DateTimeField(auto_now_add = True)
-    duedate = models.DateField(null = True, blank = True)
+    user = models.ForeignKey(User, on_delete = models.CASCADE, null = True, blank = True, verbose_name = "ユーザー名")
+    title = models.CharField(max_length = 100, verbose_name = "タスク名")
+    description = models.TextField(null = True, blank = True, verbose_name = "詳細")
+    status = models.CharField(choices = CHOICES, max_length = 15, null = True, blank = True, verbose_name = "ステータス")
+    createdDate = models.DateTimeField(auto_now_add = True, verbose_name = "登録日")
+    duedate = models.DateField(null = True, blank = True, verbose_name = "期日")
 
 
     def __str__(self):
@@ -104,6 +103,5 @@ class Task(models.Model):
 
     
     class Meta:
-        ordering = ["completed"]
         verbose_name_plural = "タスク"
         verbose_name = "タスク"
