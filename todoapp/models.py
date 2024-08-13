@@ -93,6 +93,7 @@ class Task(models.Model):
     user = models.ForeignKey(User, on_delete = models.CASCADE, null = True, blank = True, verbose_name = "ユーザー名")
     title = models.CharField(max_length = 100, verbose_name = "タスク名")
     description = models.TextField(null = True, blank = True, verbose_name = "詳細")
+    completed = models.BooleanField(default = False)
     status = models.CharField(choices = CHOICES, max_length = 15, null = True, blank = True, verbose_name = "ステータス")
     createdDate = models.DateTimeField(auto_now_add = True, verbose_name = "登録日")
     duedate = models.DateField(null = True, blank = True, verbose_name = "期日")
