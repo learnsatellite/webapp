@@ -39,9 +39,7 @@ class CustomUserAdmin(UserAdmin):
 
 
 class CustomTaskAdmin(admin.ModelAdmin):
-    # 表示するフィールドを指定
     fields = ("user", "title", "description", "status", "duedate")
-    # リスト表示の際に表示するフィールドを指定
     list_display = ("title", )
 
 
