@@ -38,7 +38,14 @@ class CustomUserAdmin(UserAdmin):
     )
 
 
+class CustomTaskAdmin(admin.ModelAdmin):
+    # 表示するフィールドを指定
+    fields = ("user", "title", "description", "status", "duedate")
+    # リスト表示の際に表示するフィールドを指定
+    list_display = ("title", )
+
+
 # Register your models here.
-admin.site.register(Task)
+admin.site.register(Task, CustomTaskAdmin)
 
 admin.site.register(User, CustomUserAdmin)
