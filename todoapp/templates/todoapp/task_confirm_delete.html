@@ -4,14 +4,20 @@
     <h1>削除</h1>
 </div>
 
-<form method = "POST" class = "formWrap">
+<form method = "POST" class = "formWrap" id = "deleteForm">
     {% csrf_token %}
     <p>{{task}}を本当に削除しますか？</p>
-    <input type = "submit" value = "削除" class = "searchButton" />
+    <input type = "submit" value = "削除" class = "searchButton" id = "deleteButton" />
 </form>
 
 <hr />
 <div class = "accountWrapper">
     <a href="{%  url 'tasks' %}" class = "blackGrey">戻る</a>
 </div>
+
+<script>
+    document.getElementById("deleteForm").addEventListener("submit", function() {
+        document.getElementById("deleteButton").disabled = true;
+    });
+</script>
 {% endblock content %}
