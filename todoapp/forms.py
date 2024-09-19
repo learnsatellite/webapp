@@ -33,3 +33,11 @@ class TaskForm(ModelForm):
             "status" : "ステータス",
             "duedate": "期日"
         }
+    
+    def clean(self):
+        cleaned_data = super().clean()
+        status = cleaned_data.get("status")
+
+
+        if not status:
+            self.add_error('status', "このフィールドは必須です。")

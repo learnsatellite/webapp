@@ -2,6 +2,7 @@ from django.contrib import admin
 from todoapp.models import Task, User
 from django.contrib.auth.admin import UserAdmin
 from django.utils.translation import gettext_lazy as _
+from .forms import TaskForm
 
 class CustomUserAdmin(UserAdmin):
     fieldsets = (
@@ -39,6 +40,7 @@ class CustomUserAdmin(UserAdmin):
 
 
 class CustomTaskAdmin(admin.ModelAdmin):
+    form = TaskForm
     fields = ("user", "title", "description", "status", "duedate")
     list_display = ("title", )
 
