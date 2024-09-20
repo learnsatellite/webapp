@@ -23,7 +23,7 @@
     {{form.password1}}
     <div class = "caution">※同ユーザーのユーザー名と似たパスワードは不可</div>
     <div class = "caution">※8文字以上、数字のみは不可</div>
-    <div class = "cautionLast">※他のユーザーもよく使用しているパスワードは不可<br>　（入力した場合、「このパスワードは一般的すぎます。」というエラーメッセージが表示）</div>
+    <div class = "cautionLast">※他のユーザーもよく使用しているパスワードは不可</div>
     {% if form.password.errors %}
         {% for error in form.password.errors %}
             <div class = "errorMessage">{{ error }}</div>
