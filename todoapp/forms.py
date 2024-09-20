@@ -40,4 +40,4 @@ class TaskForm(ModelForm):
 
 
         if not status:
-            self.add_error('status', "このフィールドは必須です。")
+            self.add_error("status", "リスト内の項目を選択してください。")
