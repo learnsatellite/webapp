@@ -20,7 +20,10 @@ class CustomUserAdmin(UserAdmin):
                 ),
             },
         ),
-        (_("Important dates"), {"fields": ("last_login",)}),
+        (
+            _("Important dates"),
+            {"fields": ("last_login",)},
+        ),
     )
     add_fieldsets = (
         (
@@ -37,6 +40,7 @@ class CustomUserAdmin(UserAdmin):
         "groups",
         "user_permissions",
     )
+    readonly_fields = ("last_login",)
 
 
 class CustomTaskAdmin(admin.ModelAdmin):
