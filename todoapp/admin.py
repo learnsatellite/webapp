@@ -35,7 +35,7 @@ class CustomUserAdmin(UserAdmin):
         ),
     )
     list_display = ("username",)
-    search_fields = ("username", "email")
+    search_fields = ("username",)
     filter_horizontal = (
         "groups",
         "user_permissions",
