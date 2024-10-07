@@ -20,7 +20,7 @@ Todoの管理（Todoの追加、参照、編集、削除）を行う為のアプ
 （開発環境）
 フレームワーク、言語、ライブラリ
 フレームワーク：Django
-言語：Python
+言語：Python, HTML, CSS, JavaScript
 
 （システム構成図）
 
