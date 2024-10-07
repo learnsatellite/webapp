@@ -27,6 +27,8 @@ Django==5.0.6
 python-dotenv==1.0.1
 sqlparse==0.5.0
 tzdata==2024.1
+Google Fonts
+Bootstrap==5.0.2
 
 （システム構成図）
 
