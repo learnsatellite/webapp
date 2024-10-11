@@ -37,6 +37,7 @@ Google Fonts
 Bootstrap==5.0.2
 
 ## システム構成図
+![システム構成図](https://github.com/user-attachments/assets/a3a370fb-7d82-46ce-9665-14c6199a5be0)
 
 ## 機能の一覧（何が出来るか）
 
