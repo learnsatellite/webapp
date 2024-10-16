@@ -95,6 +95,10 @@ Bootstrap==5.0.2
 
 ![タスク追加後](https://github.com/user-attachments/assets/62630cee-ea3c-432d-bb52-41e8b7566e71)
 ##### タスクを参照する
+タスク一覧画面にて、登録済みタスクのタスク名がリンクになっている。クリックすると、タスク詳細画面に遷移される。
+
+![タスク追加後](https://github.com/user-attachments/assets/62630cee-ea3c-432d-bb52-41e8b7566e71)
+
 
 
 ##### ログアウトする
