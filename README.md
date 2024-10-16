@@ -63,7 +63,10 @@ Bootstrap==5.0.2
 新規登録完了直後は、タスク一覧画面に遷移されます。
 ![新規登録　結果](https://github.com/user-attachments/assets/39aeede9-4497-420d-a33f-1ff81cbf0fea)
 ##### ログインする
-
+ログイン画面にて、登録済みのユーザー情報（ユーザー名、パスワード）を入力し、ログインボタンをクリックします。
+![ログイン画面](https://github.com/user-attachments/assets/2202caef-73a9-44e7-908d-d42741abe790)
+タスク一覧画面に遷移されます。
+![新規登録　結果](https://github.com/user-attachments/assets/39aeede9-4497-420d-a33f-1ff81cbf0fea)
 ##### ログアウトする
 
 ## テスト
