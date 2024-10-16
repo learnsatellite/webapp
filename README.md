@@ -80,9 +80,17 @@ Bootstrap==5.0.2
 次に、タスクの追加登録、参照、編集、削除を行う流れを説明します。
 ##### タスクを追加登録する
 タスク一覧画面にて、「タスクの追加登録」ボタンをクリックします。
+
 ![新規登録　結果](https://github.com/user-attachments/assets/39aeede9-4497-420d-a33f-1ff81cbf0fea)
+
 タスク追加登録画面に遷移されます。
+
 ![機能　追加登録](https://github.com/user-attachments/assets/01ade1f3-b04e-4b43-8876-05490816d298)
+
+フォームに入力し、「追加」ボタンをクリックします。
+
+![タスク　追加登録　入力](https://github.com/user-attachments/assets/38ebd5d3-65b1-4f7f-9060-c52f2bb6268c)
+
 
 ##### ログアウトする
 タスク一覧画面にて、ログアウトボタンをクリックします。
