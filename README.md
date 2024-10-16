@@ -72,6 +72,7 @@ Bootstrap==5.0.2
 タスク一覧画面にて、「タスクの追加登録」ボタンをクリックします。
 ![新規登録　結果](https://github.com/user-attachments/assets/39aeede9-4497-420d-a33f-1ff81cbf0fea)
 タスク追加登録画面に遷移されます。
+![機能　追加登録](https://github.com/user-attachments/assets/01ade1f3-b04e-4b43-8876-05490816d298)
 
 ##### ログアウトする
 タスク一覧画面にて、ログアウトボタンをクリックします。
