@@ -59,15 +59,24 @@ Bootstrap==5.0.2
 ログイン画面にて、「新規登録」リンクをクリックすると、ユーザー新規登録画面に移動します。
 
 ![機能　ログイン画面](https://github.com/user-attachments/assets/81c0669e-ed1e-4059-839c-0df51116d8aa)
+
 注意書きのルールを守り、「新規登録」ボタンをクリックするとユーザーの新規登録が完了します。
+
 ![新規登録](https://github.com/user-attachments/assets/d69b3100-90ef-437c-a57c-ea1355034b62)
+
 新規登録完了直後は、タスク一覧画面に遷移されます。
+
 ![新規登録　結果](https://github.com/user-attachments/assets/39aeede9-4497-420d-a33f-1ff81cbf0fea)
+
 ##### ログインする
 ログイン画面にて、登録済みのユーザー情報（ユーザー名、パスワード）を入力し、「ログイン」ボタンをクリックします。
+
 ![ログイン画面](https://github.com/user-attachments/assets/2202caef-73a9-44e7-908d-d42741abe790)
+
 タスク一覧画面に遷移されます。
+
 ![新規登録　結果](https://github.com/user-attachments/assets/39aeede9-4497-420d-a33f-1ff81cbf0fea)  
+
 次に、タスクの追加登録、参照、編集、削除を行う流れを説明します。
 ##### タスクを追加登録する
 タスク一覧画面にて、「タスクの追加登録」ボタンをクリックします。
