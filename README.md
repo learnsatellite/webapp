@@ -91,6 +91,11 @@ Bootstrap==5.0.2
 
 ![タスク　追加登録　入力](https://github.com/user-attachments/assets/38ebd5d3-65b1-4f7f-9060-c52f2bb6268c)
 
+タスク一覧画面に遷移され、タスクが追加されているのが確認可能です。
+
+![タスク追加後](https://github.com/user-attachments/assets/62630cee-ea3c-432d-bb52-41e8b7566e71)
+##### タスクを参照する
+
 
 ##### ログアウトする
 タスク一覧画面にて、ログアウトボタンをクリックします。
