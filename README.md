@@ -62,6 +62,7 @@ Bootstrap==5.0.2
 ![新規登録](https://github.com/user-attachments/assets/d69b3100-90ef-437c-a57c-ea1355034b62)
 新規登録完了直後は、タスク一覧画面に遷移されます。
 ![新規登録　結果](https://github.com/user-attachments/assets/39aeede9-4497-420d-a33f-1ff81cbf0fea)
+##### ログアウトする
 
 ## テスト
 以下の観点で、1,300件程のテストケースを実施しました。
