@@ -136,6 +136,7 @@ Bootstrap==5.0.2
 ![タスク削除後　タスク一覧](https://github.com/user-attachments/assets/0827887b-a61b-40c7-bd85-3d1f81ae6157)
 
 ##### タスクを検索する
+「検索」ボタンをクリックすると、「タスク名」検索フォームの内容と「ステータス」のフィルターを反映した検索結果が表示されます。
 
 ![タスク　検索](https://github.com/user-attachments/assets/ba8aed9f-28ed-4751-93a5-6db8c66cc2e0)
 
