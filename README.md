@@ -127,6 +127,12 @@ Bootstrap==5.0.2
 
 ![タスク一覧　編集後](https://github.com/user-attachments/assets/f9836bee-062c-45a1-a9c7-4f755cc304e8)
 
+「削除ボタン」をクリックすると、タスクが削除されます。
+
+![タスク削除](https://github.com/user-attachments/assets/67d9046d-8d24-4b94-b5ff-d9950178a19e)
+
+タスク一覧画面に遷移されます。上記の流れで、登録したタスクは削除された為、表示されません。
+
 
 ##### ログアウトする
 タスク一覧画面にて、ログアウトボタンをクリックします。
