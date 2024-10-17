@@ -107,7 +107,11 @@ Bootstrap==5.0.2
 
 ![タスク追加後](https://github.com/user-attachments/assets/62630cee-ea3c-432d-bb52-41e8b7566e71)
 
-タスク編集画面です。
+タスク編集画面です。タスクの編集が可能です。
+
+![タスク編集](https://github.com/user-attachments/assets/60d52bca-aa5a-4dc8-8f11-1718df44a0d9)
+
+- タスク名、詳細、ステータス、期日を編集
 
 
 ##### ログアウトする
