@@ -112,7 +112,10 @@ Bootstrap==5.0.2
 ![タスク編集](https://github.com/user-attachments/assets/60d52bca-aa5a-4dc8-8f11-1718df44a0d9)
 
 - タスク名、詳細、ステータス、期日を編集
+
 ![タスク編集　デモ](https://github.com/user-attachments/assets/8f8d7133-b065-4ebb-86e4-36523975313b)
+
+「更新」ボタンをクリックすると、編集内容が反映され、タスク一覧画面に遷移されます。
 
 
 
