@@ -140,6 +140,10 @@ Bootstrap==5.0.2
 
 ![タスク　検索](https://github.com/user-attachments/assets/ba8aed9f-28ed-4751-93a5-6db8c66cc2e0)
 
+検索結果です。
+
+![検索結果](https://github.com/user-attachments/assets/e65740d5-805a-4a73-9921-00aa571d50ca)
+
 ##### ログアウトする
 タスク一覧画面にて、ログアウトボタンをクリックします。
 
