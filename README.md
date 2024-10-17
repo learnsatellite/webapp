@@ -147,7 +147,10 @@ Bootstrap==5.0.2
 ##### ログアウトする
 タスク一覧画面にて、ログアウトボタンをクリックします。
 
+![タスク　検索](https://github.com/user-attachments/assets/ba8aed9f-28ed-4751-93a5-6db8c66cc2e0)
+
 ログアウトが実施されると、ログイン画面に遷移されます。
+
 ![機能　ログイン画面](https://github.com/user-attachments/assets/81c0669e-ed1e-4059-839c-0df51116d8aa)
 ## テスト
 以下の観点で、1,300件程のテストケースを実施しました。
