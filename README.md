@@ -177,6 +177,7 @@ Bootstrap==5.0.2
 2.[テスト仕様書（不具合修正）](https://github.com/learnsatellite/webapp/blob/main/doc/%E3%83%86%E3%82%B9%E3%83%88%E4%BB%95%E6%A7%98%E6%9B%B8%EF%BC%88%E4%B8%8D%E5%85%B7%E5%90%88%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
 <!--
 テストのリンクは消さなくて良い。
+PDFと両方送っても、くどくはない。
  名前
  梶　聡史
 
