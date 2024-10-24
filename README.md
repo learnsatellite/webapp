@@ -178,5 +178,5 @@ Bootstrap==5.0.2
 ## 補足
 付帯資料として、画面イメージ設計図を付けています。ご参照下さい。
 
-[画面イメージ設計図](https://github.com/learnsatellite/webapp/blob/main/doc/%E7%94%BB%E9%9D%A2%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E8%A8%AD%E8%A8%88%E5%9B%B3.pdf) 
+- [画面イメージ設計図](https://github.com/learnsatellite/webapp/blob/main/doc/%E7%94%BB%E9%9D%A2%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E8%A8%AD%E8%A8%88%E5%9B%B3.pdf) 
  
