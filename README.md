@@ -180,7 +180,7 @@ Bootstrap==5.0.2
 
 〈成果物名〉Todoアプリ
 
-1.〈URL（ユーザー向け）〉 [webappopen.pythonanywhere.com](webappopen.pythonanywhere.com)
+1.〈URL（ユーザー向け）〉 [webappopen.pythonanywhere.com](webappopen.pythonanywhere.com)  
 2.〈URL（管理者向け）〉 [webappopen.pythonanywhere.com/admin/](webappopen.pythonanywhere.com/admin/)
 
 1、2からアクセス可能なTodoアプリにログインする為のユーザー名及びパスワードを以下に表示します。
