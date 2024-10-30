@@ -175,6 +175,18 @@ Bootstrap==5.0.2
 
 1.[テスト仕様書（テストケース）](https://github.com/learnsatellite/webapp/blob/main/doc/%E3%83%86%E3%82%B9%E3%83%88%E4%BB%95%E6%A7%98%E6%9B%B8%EF%BC%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9%EF%BC%89.pdf)  
 2.[テスト仕様書（不具合修正）](https://github.com/learnsatellite/webapp/blob/main/doc/%E3%83%86%E3%82%B9%E3%83%88%E4%BB%95%E6%A7%98%E6%9B%B8%EF%BC%88%E4%B8%8D%E5%85%B7%E5%90%88%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
+## 成果物
+以下に成果物のURLを表示します。
+
+〈成果物名〉Todoアプリ
+
+1.〈URL（ユーザー向け）〉 [webappopen.pythonanywhere.com](webappopen.pythonanywhere.com)
+2.〈URL（管理者向け）〉 [webappopen.pythonanywhere.com/admin/](webappopen.pythonanywhere.com/admin/)
+
+1、2からアクセス可能なTodoアプリにログインする為のユーザー名及びパスワードを以下に表示します。
+
+（ユーザー名）forapp
+（パスワード）otameshi
 ## 補足
 付帯資料として、画面イメージ設計図を付けています。ご参照下さい。
 
