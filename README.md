@@ -183,10 +183,6 @@ Bootstrap==5.0.2
 1.〈URL（ユーザー向け）〉 webappopen.pythonanywhere.com  
 2.〈URL（管理者向け）〉 webappopen.pythonanywhere.com/admin/
 
-1、2からアクセス可能なTodoアプリにログインする為のユーザー名及びパスワードを以下に表示します。
-
-（ユーザー名）forapp  
-（パスワード）otameshi
 ## 補足
 付帯資料として、画面イメージ設計図を付けています。ご参照下さい。
 
