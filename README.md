@@ -156,17 +156,10 @@ Bootstrap==5.0.2
 
 テストの詳細は、後述「成果物」のテスト仕様書をご参照下さい。  
 ## 成果物
-以下に、成果物であるTodoアプリのURLを記載します。
+以下に、成果物を記載します。
 
-1.〈URL（ユーザー向け）〉 webappopen.pythonanywhere.com  
-2.〈URL（管理者向け）〉 webappopen.pythonanywhere.com/admin/
-
-また、以下に、テスト仕様書のリンクを記載します。ご参照下さい。
-3にはテストケース、4には不具合修正について記載されています。
-
+1.〈アプリのURL（ユーザー向け）〉 webappopen.pythonanywhere.com  
+2.〈アプリのURL（管理者向け）〉 webappopen.pythonanywhere.com/admin/
 3.[テスト仕様書（テストケース）](https://github.com/learnsatellite/webapp/blob/main/doc/%E3%83%86%E3%82%B9%E3%83%88%E4%BB%95%E6%A7%98%E6%9B%B8%EF%BC%88%E3%83%86%E3%82%B9%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9%EF%BC%89.pdf)  
 4.[テスト仕様書（不具合修正）](https://github.com/learnsatellite/webapp/blob/main/doc/%E3%83%86%E3%82%B9%E3%83%88%E4%BB%95%E6%A7%98%E6%9B%B8%EF%BC%88%E4%B8%8D%E5%85%B7%E5%90%88%E4%BF%AE%E6%AD%A3%EF%BC%89.pdf)
-
-付帯資料として、画面イメージ設計図を付けています。以下にリンクを記載します。ご参照下さい。
-
 5.[画面イメージ設計図](https://github.com/learnsatellite/webapp/blob/main/doc/%E7%94%BB%E9%9D%A2%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E8%A8%AD%E8%A8%88%E5%9B%B3.pdf) 
